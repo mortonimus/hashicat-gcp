@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/ALIMORTON-training/network/google"
   version = "2.5.0"
   # insert required variables here
-  network-name = "ali-network"
+  network_name = "ali-network"
   project_id = var.project
   subnets = [
   {
